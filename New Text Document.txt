@@ -1,0 +1,33 @@
+PS C:\Users\comlab-pc> cd \Users\comlab-pc\Downloads\roa
+
+PS C:\Users\comlab-pc\Downloads\roa> git init
+Reinitialized existing Git repository in C:/Users/comlab-pc/Downloads/roa/.git/
+
+PS C:\Users\comlab-pc\Downloads\roa> git add .
+
+PS C:\Users\comlab-pc\Downloads\roa> git remote add origin 
+https://github.com/ALLIANAH8/roa.git
+
+PS C:\Users\comlab-pc\Downloads\roa> git commit -m "gutom na"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'comlab-pc@DESKTOP-KE63HTR.(none)')
+
+PS C:\Users\comlab-pc\Downloads\roa> git config --global user.email "alesandrojoeff@gmail.com"
+
+PS C:\Users\comlab-pc\Downloads\roa> git commit -m "gutom na"
+[master (root-commit) 249b9c2] gutom na
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 New Text Document.txt
+
+PS C:\Users\comlab-pc\Downloads\roa>
